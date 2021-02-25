@@ -1,0 +1,10 @@
+{
+  "name": "hackathon",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "dialogflow": "^1.2.0",
+    "uuid": "^8.3.2"
+  }
+}
