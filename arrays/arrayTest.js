@@ -54,3 +54,8 @@ occurences = (frequencyOfArray) => {
 }
 
 occurences(frequencyOfArray)
+
+var stringVal = 'abc'
+stringPermutation = ()=> {
+
+}

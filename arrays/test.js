@@ -1,39 +1,54 @@
-// let points = 100 ;
-// let winner = false
-// if(points > 90){
-//   let  winner = true ;
+// // let points = 100 ;
+// // let winner = false
+// // if(points > 90){
+// //   let  winner = true ;
+// // }
+// // console.log("Winner value is ", winner)
+
+// const mysql = require('mysql')
+
+// var sampleArray = {100:'siraj', 1: 'shaheen', 0:'yousuf',2:'luqman'};
+
+// console.log(Object.keys(sampleArray))
+
+
+
+
+// const countryName = [India , pakistan,australia, USA ]
+
+// http://localhost:8080/getCountryList 
+
+// countList = []
+// const countList = select countryName from countryList ; 
+// http://localhost:8080/getStateList?countryName='$CountryName'
+
+// getStateList = (countryName) =>{
+
+//     const stateList = [];
+//    stateName = select stateName from CountryList where countryName = countryName
+//     return stateName
+//    return  res.json({stateName : stateName})
 // }
-// console.log("Winner value is ", winner)
+// http://localhost:8080/getStateList?countryName='$CountryName'
 
-const mysql = require('mysql')
-
-var sampleArray = {100:'siraj', 1: 'shaheen', 0:'yousuf',2:'luqman'};
-
-console.log(Object.keys(sampleArray))
+// res.json(countList)
 
 
 
+// {stateName : [tamilNadu , KErala , AP , UP]}
 
-const countryName = [India , pakistan,australia, USA ]
+// splitMe= ()=>{
 
-http://localhost:8080/getCountryList 
+//     var input = 123
+//     input.toString()
+//     let arr =[]
+//     for (let index = 0; index < input.length; index++) {
+//        arr.push(i)
+//     }
+//     return arr
+// } 
+// console.log(splitMe())
 
-countList = []
-const countList = select countryName from countryList ; 
-http://localhost:8080/getStateList?countryName='$CountryName'
+let a =[1,2,3]
 
-getStateList = (countryName) =>{
-
-    const stateList = [];
-   stateName = select stateName from CountryList where countryName = countryName
-    return stateName
-   return  res.json({stateName : stateName})
-}
-http://localhost:8080/getStateList?countryName='$CountryName'
-
-res.json(countList)
-
-
-
-{stateName : [tamilNadu , KErala , AP , UP]}
-
+console.log(...a)

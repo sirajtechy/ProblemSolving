@@ -19,3 +19,15 @@ sumOfPair = () => {
 }
 
 console.log(sumOfPair())
+
+
+
+// function fizzbuzz(value){
+//     switch (value) {
+       
+//             break;
+    
+//         default:
+//             break;
+//     }
+// }
